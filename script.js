@@ -1,8 +1,5 @@
-function drawCanvas(size) {
-    for (let i = 1; i <= size*size; i++) {
-        const div = document.createElement("div");
-        div.style.color = "#ffffff";
-        div.classList.add("box");
-        document.querySelector('.container').appendChild(div);
-    }
-}
+// Initialize some variables
+const clearBtn = document.querySelector('.clear');
+const setGridBtn = document.querySelector('.set-grid');
+const rainbowBtn = document.querySelector('.rainbow');
+

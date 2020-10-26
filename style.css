@@ -7,20 +7,25 @@ body {
     width: 50%;
     position: absolute;
     top: 40px;
-    left: 500px;
+    left: 470px;
 }
 .btn {
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     font-size: 15px;
     background-color: white;
+    cursor: pointer;
 }
 .container {
     border: 3px solid black;
+    display: grid;
     position: relative;
     right: 75px;
     padding: 0px;
     margin-top: 50px;
     width: 600px;
     height: 600px;
+}
+.box {
+    display: inline-grid;
 }
