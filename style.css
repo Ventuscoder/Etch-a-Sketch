@@ -15,17 +15,16 @@ body {
     font-size: 15px;
     background-color: white;
     cursor: pointer;
+    margin-right: 10px;
 }
 .container {
     border: 3px solid black;
     display: grid;
     position: relative;
-    right: 75px;
+    right: 30px;
+    bottom: 30px;
     padding: 0px;
     margin-top: 50px;
     width: 600px;
     height: 600px;
-}
-.box {
-    display: inline-grid;
 }
