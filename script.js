@@ -97,6 +97,7 @@ function init() {
 rainbowBtn.addEventListener('click', function() {
     if (rainbowColorIsOn == false) {
         rainbowColorIsOn = true;
+        createDivs();
         addMouseoverToGrids();
         makeGrid();
     } else {
